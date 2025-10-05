@@ -52,6 +52,7 @@ pipeline {
       steps {
         echo 'Deploy the application to production servers after successful testing and validation'
         echo 'AWS EC2 / AWS CodeDeploy, Terraform'
+      }
     }
   }
 
